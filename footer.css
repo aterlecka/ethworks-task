@@ -1,0 +1,135 @@
+.footer{
+  background: linear-gradient(180deg, #FAFBFF 0%, #EFF1F9 41.68%, #E9ECF6 49.59%, #CED3E8 93.91%);
+  padding-top: 2%;
+
+}
+
+.footer__container__one{
+    display: flex;
+    justify-content: center;
+    flex: 0 0 30%;
+}
+  .footer__logo{
+    flex: 0 0 17%;
+
+  }
+  .footer__ul{
+    flex: 0 0 45%;
+  }
+  
+  .footer__button{
+    flex: 0 0 14%;
+
+  }
+
+    .footer__ul__group{
+
+    }
+      li{
+      color: #263396;
+      font-family: 'Sen', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: 0.32px;
+      text-decoration: none;
+      list-style: none;
+      }
+        .email{
+          font-family: Sen;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 24px;
+          text-align: center;
+          letter-spacing: 0.4px;
+          color: #0F81FF;
+          margin-top: 2%;
+          text-decoration: underline;
+          
+        }
+
+
+  .footer__button{
+    flex: 0 0 10%;
+  }
+
+.footer__container__two{
+    text-align: center;
+}
+
+.footer__button__button{
+background: #38A5DB;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  background: #38A5DB;
+   box-shadow: 0px 12px 44px rgba(56, 165, 219, 0.6);
+  border-radius: 23px;
+  padding: 19px 40px;
+}
+
+
+.footer__container__two{
+  margin-top: 6%;
+
+} 
+  a{
+    margin-right: 3%;
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #45515F;
+    text-decoration: none;
+  }
+    .vertical-line{
+      border-right: 2px solid #9CA4C7;
+      margin-right: 3%;
+    }
+  
+  
+  
+
+
+@media(max-width: 900px){
+
+.footer__container__one{
+   /* flex-wrap: wrap;
+   max-width: 20%   */
+   flex-direction: column;
+
+}
+
+.footer__logo{
+  text-align: center;
+  margin-bottom:3%;
+}
+.footer__button{
+  text-align:center;
+  margin-top:5%;
+}
+.vertical-line{
+  display: none;
+}
+
+}
+/* 
+
+.footer__container__two{
+
+
+} 
+  a{
+   flex-wrap: wrap;
+   max-width: 20%;
+
+}      
+
+     */
